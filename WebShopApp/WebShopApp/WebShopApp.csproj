@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-WebShopApp-13536bfd-59a7-4db5-8c41-07a7c662ed6b</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.31" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.31" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.31" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.31" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.31" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebShopApp.Infrastructure\WebShopApp.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
